@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ file_name }} - File</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>📂 {{ file_name }}</h1>
+    <p><b>File ID:</b> {{ file_id }}</p>
+    <p><b>Telegram File ID:</b> {{ tg_file_id }}</p>
+    <a class="btn" href="/download/{{ file_id }}">⬇ Download</a>
+  </div>
+</body>
+</html>

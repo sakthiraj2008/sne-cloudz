@@ -1,0 +1,4 @@
+BOT_TOKEN = "your-telegram-bot-token"
+CHANNEL_ID = "@your_channel"
+MONGO_URI = "mongodb://localhost:27017/"
+UPLOAD_FOLDER = "uploads"
